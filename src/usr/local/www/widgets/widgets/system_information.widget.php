@@ -188,7 +188,7 @@ $temp_use_f = (isset($user_settings['widgets']['thermal_sensors-0']) && !empty($
 				$uniqueid = system_get_uniqueid();
 				if (!empty($uniqueid)) {
 					print("<br />" .
-					    gettext("Netgate Device ID:") .
+					    gettext("IN300 Device ID:") .
 					    " <strong>{$uniqueid}</strong>");
 				}
 ?>
@@ -230,7 +230,7 @@ $temp_use_f = (isset($user_settings['widgets']['thermal_sensors-0']) && !empty($
 		<tr>
 			<th><?=gettext("Version");?></th>
 			<td>
-				<strong><?=$g['product_version_string']?></strong>
+				<strong>IN300 v2</strong>
 				(<?php echo php_uname("m"); ?>)
 				<br />
 				<?=gettext('built on')?> <?php readfile("/etc/version.buildtime"); ?>
